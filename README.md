@@ -15,7 +15,7 @@ Follow these step:
 Setup Remote VM (ip of my remote vm is 192.168.1.74)                                                          #change ip according to your setup 
 
 1: Install Filebeat on remote vm 
-2: Goto the /etc/filebeat/filebeat.yml 
+2: Goto the /etc/filebeat/filebeat.yml                                             # you only configure Logstash Input & Logstash Output Configuration i also mention in file 
 3: Edit filebeat.yml and configure it as you needed 
 4: I am also uploading filebeat.yaml file. 
 5: After make changes then restart filebeat services again
