@@ -1,9 +1,10 @@
-Hello  i am setting ELK Stack with Docker-Compose file and show the Logs or remote vm 
+Hello  i am setting up ELK Stack with Docker-Compose file and show the Logs of remote vm 
 
 Diretory Setup: 
         => elk-stack 
                > docker-compose.yml
                > logstash.conf 
+               > .env
         then create "esdata" directory for vloume mount inside the "elk-stack directory"
 
 Follow these step: 
